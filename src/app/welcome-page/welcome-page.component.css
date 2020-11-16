@@ -1,0 +1,127 @@
+.nav-color , a{
+    /*background-color: #fdfdfd;*/
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+    opacity: 0.98;
+    z-index: 1;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.nav-logo{
+    width: 34%;
+    height: 34%;
+    margin-right: none;
+    margin-top: 0%;
+    padding-top: 3%;
+}
+.bg {
+    /* The image used */
+    background-image: url("../../images/bg2.jpg");
+    /*background-color: #4156e3;*/
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul,li {
+    list-style-type: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    padding-top: 4%;
+    font-size: 15px;
+}
+
+.price{
+    margin-top: 9%;
+    margin-bottom: 5%;
+    font-size: 33px ;
+}
+
+.bg4{
+    /* The image used */
+    /*background-image: url("../../images/bg4.jpg");*/
+    background-color: #181a1b;
+    /* Full height */
+    height: 100%;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-green{
+    padding: 1%;
+    padding-right:10%;
+    padding-left: 10%;
+    border-radius: 4%;
+    margin: 0%;
+    background-color: white;
+    border: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+ /* 29aae3 */
+
+.btn-orc{
+    padding: 1%;
+    padding-right:10%;
+    padding-left: 10%;
+    border-radius: 5%;
+    margin: 3%;
+    background-color: #29aae3;
+    border-style: solid;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mt-l{
+    margin:8%;
+}
+
+.pt-l{
+    padding-top:8%
+}
+.pb-l{
+    padding-bottom: 8%;
+}
+h2,h3,h4,h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.font-page{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1{
+    font-size: 3.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.h6{
+    font-size: 1.1em;
+    color: #29aae3;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.carousel{
+    width: 100%; 
+    margin-top: -7%;
+    z-index: -1;
+}
+
+@media (max-width: 780px) { 
+    .navbar{
+        display:none;
+    }
+    .carousel{
+        width: 100%;
+        height: 440%;
+    }
+}
