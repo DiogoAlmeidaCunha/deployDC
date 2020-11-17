@@ -5,7 +5,7 @@
     /* Full height */
     max-height: 50%;
     width: 100%;
-    
+    -ms-background-size: cover;   -o-background-size: cover;   -moz-background-size: cover;   -webkit-background-size: cover;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -48,5 +48,35 @@ button{
     border-style: solid;
     border-width: thin;
     opacity:0.78;
-    font-family: monospace
+    font-family: monospace;
+    z-index:100;
+    
+    
+}
+.open-trans{
+    overflow: hidden;
+    transition-duration: 1.90s;
+    transition-property: transform;
+    
+    animation: createBox 2s;
+    
+}
+
+@keyframes createBox {
+        from {
+          transform: scale(0.60);
+        }
+        to {
+          transform: scale(1);
+    }
+}
+
+a{
+    color: white;
+}
+
+button:hover{
+    transition:1s;
+    opacity: 0.80;
+    font-size: 3em;
 }
